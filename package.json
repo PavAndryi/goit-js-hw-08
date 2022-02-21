@@ -1,0 +1,27 @@
+{
+  "name": "goit-js-hw-07",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-07/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavandryi/goit-js-hw-07.git"
+  },
+  "keywords": [],
+  "author": "Andryi Polshchikov <andryi5465@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://pavandryi.github.io/goit-js-hw-07",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
